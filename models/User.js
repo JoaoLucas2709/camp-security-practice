@@ -1,7 +1,6 @@
 // models/User.js
 const Sequelize = require('sequelize');
 const sequelize = require('../sequelize');
-<<<<<<< HEAD
 const bcrypt = require('bcrypt');
 const User = sequelize.define('user', {
   username: {
@@ -43,12 +42,3 @@ const User = sequelize.define('user', {
 });
 
 module.exports = User;
-=======
-
-const User = sequelize.define('user', {
-  username: Sequelize.STRING,
-  password: Sequelize.STRING,
-});
-
-module.exports = User;
->>>>>>> 3c4d9349e6fd48865ebc82936d3bb70ac054883f
